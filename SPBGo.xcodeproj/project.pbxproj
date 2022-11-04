@@ -12,6 +12,11 @@
 		55FAD9632912DFAF00E09068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FAD9612912DFAF00E09068 /* Main.storyboard */; };
 		55FAD9652912DFB100E09068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FAD9642912DFB100E09068 /* Assets.xcassets */; };
 		55FAD9682912DFB100E09068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FAD9662912DFB100E09068 /* LaunchScreen.storyboard */; };
+		55FAD976291331EF00E09068 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD975291331EF00E09068 /* RegistrationViewController.swift */; };
+		55FAD9782913F90700E09068 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD9772913F90700E09068 /* MainViewController.swift */; };
+		55FAD97B2913FDBB00E09068 /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD97A2913FDBB00E09068 /* EventsController.swift */; };
+		55FAD97D2913FDD200E09068 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD97C2913FDD200E09068 /* MapController.swift */; };
+		55FAD97F2913FDF900E09068 /* LeaderBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD97E2913FDF900E09068 /* LeaderBoardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		55FAD9642912DFB100E09068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55FAD9672912DFB100E09068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FAD9692912DFB100E09068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FAD975291331EF00E09068 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		55FAD9772913F90700E09068 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55FAD97A2913FDBB00E09068 /* EventsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsController.swift; sourceTree = "<group>"; };
+		55FAD97C2913FDD200E09068 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		55FAD97E2913FDF900E09068 /* LeaderBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		55FAD95A2912DFAF00E09068 /* SPBGo */ = {
 			isa = PBXGroup;
 			children = (
+				55FAD9792913FD8F00E09068 /* TabViewElements */,
 				55FAD95B2912DFAF00E09068 /* AppDelegate.swift */,
 				55FAD95F2912DFAF00E09068 /* ViewController.swift */,
+				55FAD975291331EF00E09068 /* RegistrationViewController.swift */,
+				55FAD9772913F90700E09068 /* MainViewController.swift */,
 				55FAD9612912DFAF00E09068 /* Main.storyboard */,
 				55FAD9642912DFB100E09068 /* Assets.xcassets */,
 				55FAD9662912DFB100E09068 /* LaunchScreen.storyboard */,
 				55FAD9692912DFB100E09068 /* Info.plist */,
 			);
 			path = SPBGo;
+			sourceTree = "<group>";
+		};
+		55FAD9792913FD8F00E09068 /* TabViewElements */ = {
+			isa = PBXGroup;
+			children = (
+				55FAD97A2913FDBB00E09068 /* EventsController.swift */,
+				55FAD97C2913FDD200E09068 /* MapController.swift */,
+				55FAD97E2913FDF900E09068 /* LeaderBoardController.swift */,
+			);
+			path = TabViewElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FAD976291331EF00E09068 /* RegistrationViewController.swift in Sources */,
 				55FAD9602912DFAF00E09068 /* ViewController.swift in Sources */,
 				55FAD95C2912DFAF00E09068 /* AppDelegate.swift in Sources */,
+				55FAD9782913F90700E09068 /* MainViewController.swift in Sources */,
+				55FAD97D2913FDD200E09068 /* MapController.swift in Sources */,
+				55FAD97B2913FDBB00E09068 /* EventsController.swift in Sources */,
+				55FAD97F2913FDF900E09068 /* LeaderBoardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
