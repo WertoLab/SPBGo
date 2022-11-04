@@ -1,4 +1,4 @@
-//
+ //
 //  ViewController.swift
 //  SPBGo
 //
@@ -17,7 +17,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         LoginText.placeholder = "Please enter your login";
+        LoginText.layer.cornerRadius = 10.0;
+        LoginText.layer.borderWidth = 2.0;
         PasswordText.placeholder = "Please enter your password";
+        PasswordText.layer.borderWidth = 2.0;
+        PasswordText.layer.cornerRadius = 10.0;
          SignInButton.addTarget(self, action: #selector(SignInButtonAction), for:.touchUpInside)
         LogInButton.addTarget(self, action: #selector(LogInButtonAction), for:.touchUpInside)
 
