@@ -10,18 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var SignInButton: UIButton!
+    @IBOutlet weak var LogInButton: UIButton!
+        
+    @IBOutlet weak var PasswordText: UITextField!
+    @IBOutlet weak var LoginText: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-         SignInButton.addTarget(self, action: #selector(buttonAction), for:.touchUpInside)
-        // Do any additional setup after loading the view.
+        LoginText.placeholder = "Please enter your login";
+        PasswordText.placeholder = "Please enter your password";
+         SignInButton.addTarget(self, action: #selector(SignInButtonAction), for:.touchUpInside)
+        LogInButton.addTarget(self, action: #selector(LogInButtonAction), for:.touchUpInside)
+
+        
         
     }
-    @objc func buttonAction(sender: UIButton) {
-        print("Button tapped")
+    @objc func LogInButtonAction(sender: UIButton){
+        var login:String = LoginText.text!;
+        var password:String = PasswordText.text!;
+        print(login)
+        print(password)
+        var move_to_main_screen = storyboard?.instantiateViewController(withIdentifier: "mainscreen") as! MainViewController;
+        move_to_main_screen.modalPresentationStyle = .fullScreen;
+        present(move_to_main_screen, animated:true)
+    }
+    @objc func SignInButtonAction(sender: UIButton) {
+        var move_to_registration = storyboard?.instantiateViewController(withIdentifier: "Registration") as! RegistrationViewController
+        move_to_registration.modalPresentationStyle = .fullScreen;
+        present(move_to_registration, animated:true)
      }
-    
-
-
 }
 
