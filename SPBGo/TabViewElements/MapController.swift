@@ -11,7 +11,7 @@ class MapController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Map")
+        print("Map MAP")
     }
     
 
