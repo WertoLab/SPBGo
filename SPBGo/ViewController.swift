@@ -25,7 +25,6 @@ class ViewController: UIViewController {
         LogInButton.addTarget(self, action: #selector(LogInButtonAction), for:.touchUpInside)
 
         
-        
     }
     @objc func LogInButtonAction(sender: UIButton){
         var login:String = LoginText.text!;
