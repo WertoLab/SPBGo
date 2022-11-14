@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55395B692916C37100C34A66 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55395B682916C37100C34A66 /* Event.swift */; };
+		55395B6D2916C65600C34A66 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55395B6C2916C65600C34A66 /* Events.swift */; };
+		55395B6F2919550600C34A66 /* ProcessingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55395B6E2919550600C34A66 /* ProcessingData.swift */; };
+		555378DD291EE38A00B9A13E /* TableCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555378DC291EE38A00B9A13E /* TableCustomCell.swift */; };
+		55C45AED291E952900F05071 /* ProcessingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C45AEC291E952900F05071 /* ProcessingInterface.swift */; };
+		55C45AEF291EA3CE00F05071 /* ParseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C45AEE291EA3CE00F05071 /* ParseJson.swift */; };
 		55FAD95C2912DFAF00E09068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD95B2912DFAF00E09068 /* AppDelegate.swift */; };
 		55FAD9602912DFAF00E09068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FAD95F2912DFAF00E09068 /* ViewController.swift */; };
 		55FAD9632912DFAF00E09068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FAD9612912DFAF00E09068 /* Main.storyboard */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55395B682916C37100C34A66 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		55395B6C2916C65600C34A66 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		55395B6E2919550600C34A66 /* ProcessingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingData.swift; sourceTree = "<group>"; };
+		555378DC291EE38A00B9A13E /* TableCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCustomCell.swift; sourceTree = "<group>"; };
+		55C45AEC291E952900F05071 /* ProcessingInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingInterface.swift; sourceTree = "<group>"; };
+		55C45AEE291EA3CE00F05071 /* ParseJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJson.swift; sourceTree = "<group>"; };
 		55FAD9582912DFAF00E09068 /* SPBGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPBGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FAD95B2912DFAF00E09068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FAD95F2912DFAF00E09068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +57,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55395B672916C35700C34A66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55395B682916C37100C34A66 /* Event.swift */,
+				55395B6C2916C65600C34A66 /* Events.swift */,
+				55395B6E2919550600C34A66 /* ProcessingData.swift */,
+				55C45AEC291E952900F05071 /* ProcessingInterface.swift */,
+				55C45AEE291EA3CE00F05071 /* ParseJson.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		55FAD94F2912DFAF00E09068 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +88,7 @@
 		55FAD95A2912DFAF00E09068 /* SPBGo */ = {
 			isa = PBXGroup;
 			children = (
+				55395B672916C35700C34A66 /* Classes */,
 				55FAD9792913FD8F00E09068 /* TabViewElements */,
 				55FAD95B2912DFAF00E09068 /* AppDelegate.swift */,
 				55FAD95F2912DFAF00E09068 /* ViewController.swift */,
@@ -83,6 +108,7 @@
 				55FAD97A2913FDBB00E09068 /* EventsController.swift */,
 				55FAD97C2913FDD200E09068 /* MapController.swift */,
 				55FAD97E2913FDF900E09068 /* LeaderBoardController.swift */,
+				555378DC291EE38A00B9A13E /* TableCustomCell.swift */,
 			);
 			path = TabViewElements;
 			sourceTree = "<group>";
@@ -158,13 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55395B692916C37100C34A66 /* Event.swift in Sources */,
 				55FAD976291331EF00E09068 /* RegistrationViewController.swift in Sources */,
+				555378DD291EE38A00B9A13E /* TableCustomCell.swift in Sources */,
 				55FAD9602912DFAF00E09068 /* ViewController.swift in Sources */,
 				55FAD95C2912DFAF00E09068 /* AppDelegate.swift in Sources */,
+				55395B6F2919550600C34A66 /* ProcessingData.swift in Sources */,
+				55C45AED291E952900F05071 /* ProcessingInterface.swift in Sources */,
 				55FAD9782913F90700E09068 /* MainViewController.swift in Sources */,
 				55FAD97D2913FDD200E09068 /* MapController.swift in Sources */,
+				55395B6D2916C65600C34A66 /* Events.swift in Sources */,
 				55FAD97B2913FDBB00E09068 /* EventsController.swift in Sources */,
 				55FAD97F2913FDF900E09068 /* LeaderBoardController.swift in Sources */,
+				55C45AEF291EA3CE00F05071 /* ParseJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +345,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B63952475;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SPBGo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -340,6 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B63952475;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SPBGo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
