@@ -136,7 +136,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="834"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="114" id="MJ0-ma-7He" customClass="TableCustomCell" customModule="SPBGo" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="custom_cell" rowHeight="114" id="MJ0-ma-7He" customClass="TableCustomCell" customModule="SPBGo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="114"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MJ0-ma-7He" id="ckB-L3-S6E">
@@ -183,6 +183,9 @@
                         <viewLayoutGuide key="safeArea" id="YbV-Qt-dhg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="nzd-x9-7Xh" id="TcQ-RU-BGG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZYM-yJ-VeX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
