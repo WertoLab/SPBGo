@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A7410928-B61A-4A22-B43A-B170E3669427"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCD85427-E297-40B6-8AE2-1A3298E3A331"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SPBGo/Classes/ProcessingData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "ProcessingData"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE6584E2-2CEB-48CF-9776-EB9AB00E8704"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SPBGo/TabViewElements/EventsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "EventsController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BE6584E2-2CEB-48CF-9776-EB9AB00E8704 - fe5a96a3eb404cb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SPBGo.EventsController.Button.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SPBGo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrey/Desktop/SPBGo/SPBGo/TabViewElements/EventsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "BE6584E2-2CEB-48CF-9776-EB9AB00E8704 - 3e530bb2a11f7b26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SPBGo.EventsController.Button.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SPBGo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrey/Desktop/SPBGo/SPBGo/TabViewElements/EventsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "BE6584E2-2CEB-48CF-9776-EB9AB00E8704 - fa4f13e96e760b23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SPBGo.EventsController.Button.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SPBGo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrey/Desktop/SPBGo/SPBGo/TabViewElements/EventsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "BE6584E2-2CEB-48CF-9776-EB9AB00E8704 - ed39aec395bc74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SPBGo.EventsController.Button.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SPBGo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrey/Desktop/SPBGo/SPBGo/TabViewElements/EventsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "BE6584E2-2CEB-48CF-9776-EB9AB00E8704 - 8a98bd6568e6df24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SPBGo.EventsController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SPBGo.EventsController"
+                  moduleName = "SPBGo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrey/Desktop/SPBGo/SPBGo/TabViewElements/EventsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "BE6584E2-2CEB-48CF-9776-EB9AB00E8704 - f265bc65952ed65e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SPBGo.EventsController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SPBGo.EventsController&gt;"
+                  moduleName = "SPBGo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrey/Desktop/SPBGo/SPBGo/TabViewElements/EventsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
