@@ -54,14 +54,6 @@ class ViewController: UIViewController {
         LogInButton.addTarget(self, action: #selector(LogInButtonAction), for:.touchUpInside)
 
     }
-    @objc func textLoginChanged(_ new_text:UITextField){
-        checkLoginValidation(login: new_text.text!)
-        checkFields(isLoginCorrect, isPasswordCorrect)
-    }
-    @objc func textPasswordChanged(_ new_text:UITextField){
-        checkPasswordValidation(password: new_text.text!)
-        checkFields(isLoginCorrect, isPasswordCorrect)
-    }
     @objc func LogInButtonAction(sender: UIButton){
         
         var login:String = LoginText.text!;
