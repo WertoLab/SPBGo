@@ -26,8 +26,7 @@ class MainViewController: UIViewController {
     }
     @objc func button_click(sender: UIButton){
         print("ok")
-       
     }
-    
 
 }
+
