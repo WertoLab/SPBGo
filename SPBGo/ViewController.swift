@@ -52,11 +52,7 @@ class ViewController: UIViewController {
         SignInButton.addTarget(self, action: #selector(SignInButtonAction), for:.touchUpInside)
         SignInButton.tintColor = .gray
         LogInButton.addTarget(self, action: #selector(LogInButtonAction), for:.touchUpInside)
-        
-    
-        messageLabelSecond.numberOfLines = 2
-        messageLabelFirst.numberOfLines = 2
-        
+
     }
     @objc func textLoginChanged(_ new_text:UITextField){
         checkLoginValidation(login: new_text.text!)
