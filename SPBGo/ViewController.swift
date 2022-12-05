@@ -23,8 +23,6 @@ class ViewController: UIViewController {
         PasswordText.layer.cornerRadius = 10.0;
          SignInButton.addTarget(self, action: #selector(SignInButtonAction), for:.touchUpInside)
         LogInButton.addTarget(self, action: #selector(LogInButtonAction), for:.touchUpInside)
-
-        
     }
     @objc func LogInButtonAction(sender: UIButton){
         var login:String = LoginText.text!;
