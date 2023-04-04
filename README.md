@@ -4,4 +4,4 @@
 
 Видео - демонстрация:
 
-https://drive.google.com/file/d/1VTEP0yLEWX6jZYria-W0lLpC-Z4Wl5nK/view?usp=sharing
+https://drive.google.com/file/d/1nccZAILzXF_BqmIhoF5oXB_wFSBIfVGY/view?usp=share_link
